@@ -138,6 +138,7 @@ Navbar
   align-items: center;
   border-bottom: 2px solid var(--primaryColor);
   box-shadow: var(--lightShadow);
+  background-image: url(https://th.bing.com/th/id/OIP.BzuEkaUjLDGn0AbrQZPWvQHaEw?pid=ImgDet&rs=1);
 }
 .nav-center {
   display: flex;
@@ -150,7 +151,10 @@ Navbar
 .nav-links {
   display: flex;
   align-items: center;
+  color: lightseagreen;
+  text-decoration: solid;
 }
+
 .nav-links a {
   text-transform: capitalize;
   display: inline-block;
@@ -165,6 +169,11 @@ Navbar
 .nav-links a:hover {
   color: var(--primaryColor);
 }
+.nav-fonts{
+  color: pink;
+  size: 2rem;
+}
+
 .logo {
   width: 12rem;
 }
@@ -204,14 +213,17 @@ Cocktails List
 
 .section {
   padding: 5rem 0;
+  background-image:url(https://th.bing.com/th/id/OIF.BJGxN9ctimoFLsr44YvDew?pid=ImgDet&rs=1);
 }
 .section-title {
   font-size: 2rem;
+  color:pink;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
   text-align: center;
   margin-bottom: 3.5rem;
   margin-top: 1rem;
+  
 }
 .cocktails-center {
   width: var(--smallWidth);
@@ -409,3 +421,4 @@ Cocktail
     height: 5em;
   }
 }
+

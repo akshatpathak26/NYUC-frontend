@@ -1,13 +1,17 @@
 import React from 'react'
-import CocktailList from '../components/CocktailList'
-import SearchForm from '../components/SearchForm'
+// import SearchForm from '../components/SearchForm'
 
 const Home = () => {
   return (
- <main>
-   <SearchForm/>
-   <CocktailList/>
- </main>
+ <section className='section'>
+  
+   <div className='section-title'>
+      <h1>plan your event</h1>
+   </div>
+   
+   {/* <SearchForm/> */}
+   
+ </section>
   )
 }
 

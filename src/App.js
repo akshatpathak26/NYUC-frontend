@@ -2,11 +2,12 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // import pages
 import Home from './pages/Home'
-import About from './pages/About'
-import SingleCocktail from './pages/SingleCocktail'
+import Register from './pages/Register'
+import Login from './pages/Login'
 import Error from './pages/Error'
 // import components
 import Navbar from './components/Navbar'
+
 function App() {
   return (
     <Router>
@@ -16,13 +17,15 @@ function App() {
         <Route exact path='/'>
           <Home/>
         </Route>
-        <Route path='/about'>
-          <About/>
+        <Route path='/register'>
+          <Register/>
         </Route>
 
-        <Route path='/cocktail/:id'>
-          <SingleCocktail/>
+        <Route path='/login'>
+          <Login/>
         </Route>
+
+        
 
         <Route path='*'>
           <Error/>
