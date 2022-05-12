@@ -3,27 +3,29 @@ import React from 'react'
 const About = () => {
   return (
     <section className='section about-section'>
-      <h1 className='section-title'>Register your event here</h1>
+      {/* <h2 className='section-title'>Register your event here</h2> */}
+      <h2 className='nav-links'>Event registration Form</h2>
      <form>
-       <label htmlFor="firstname" className='nav-links'>First Name</label>
-       <input type="text" name='firstname' placeholder='akshat' />
-       <label htmlFor="Lastname" className='nav-links'>Last Name</label>
-       <input type="text" name='Lastname' placeholder='pathak' />
-       <label className='nav-links' >
-         Registration Type
-         </label>
+       <h5 className='nav-links'>First Name  <input type="text" name='firstname' placeholder='akshat' /></h5>
+       <h5 className='nav-links'>Last Name  <input type="text" name='Lastname' placeholder='pathak' /></h5>
+      
+     
+      
        <div>
-         Virtual mode
-       <input type="checkbox" />
+         .
        </div>
+
+       <h4 className='nav-links'>Event Type</h4>
        <div>
-         offline mode
-       <input type="checkbox" />
+         <h6 className='nav-links'>Virtual mode <input type="checkbox" /></h6>
+         <h6 className='nav-links'>offline mode <input type="checkbox" /></h6>
        </div>
-       <label htmlFor="phone number" className='nav-links'>Phone Number</label>
-       <input type="Number"  placeholder='9893933xx7' />
-       <label htmlFor="Email" className='nav-links'>Email</label>
-       <input type="text" name='email' placeholder='akshatpathak@xyz.com' />
+      
+       <h5 className='nav-links'>Phone Number  <input type="Number"  placeholder='9893933xx7' /></h5>
+       <h5 className='nav-links'>Email  <input type="text" name='email' placeholder='akshatpathak@xyz.com' /></h5>
+       
+   
+       
 
        <button className='btn nav-links'>Register event </button>
       

@@ -6,7 +6,7 @@ const Home = () => {
  <section className='section'>
   
    <div className='section-title'>
-      <h1>plan your event</h1>
+      <h1>plan your event TODAY.</h1>
    </div>
    
    {/* <SearchForm/> */}
